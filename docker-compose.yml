@@ -4,7 +4,7 @@ services:
   wordpress:
     build: .
     ports:
-      - "80:80"
+      - "31337:31337"
     environment:
       WORDPRESS_DB_PASSWORD: password
     volumes:
