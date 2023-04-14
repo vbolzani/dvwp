@@ -6,7 +6,7 @@ wp core install \
   --admin_user="admin" \
   --admin_password="admin" \
   --admin_email="admin@example.com" \
-  --url="https://vulnerablewordpressfg.herokuapp.com:1337" \
+  --url="http://vulnerablewordpressfg.herokuapp.com" \
   --skip-email
 
 # Update permalink structure.
