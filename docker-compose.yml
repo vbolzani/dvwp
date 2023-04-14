@@ -4,7 +4,7 @@ services:
   wordpress:
     build: .
     ports:
-      - "31337:80"
+      - "1337:1337"
     environment:
       WORDPRESS_DB_PASSWORD: password
     volumes:
@@ -18,7 +18,7 @@ services:
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
     ports:
-      - 31338:80
+      - 1338:80
     environment:
       - PMA_ARBITRARY=1
       - PMA_HOST=mysql

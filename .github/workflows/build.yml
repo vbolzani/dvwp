@@ -24,7 +24,7 @@ jobs:
           
           dockerfile_directory: ./
           dockerfile_name: Dockerfile
-          docker_options: "--no-cache"
+          docker_options: "--no-cache -e PORT=1337"
           
           process_type: web
  
